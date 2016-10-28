@@ -1,0 +1,31 @@
+{
+  "name": "OP Settings Conveyor",
+  "author": "Mike Cataldo",
+  "description": "Facilitates copying data from the ObservePoint legacy platform to the new one",
+  "version": "0.2",
+  "permissions": ["activeTab", "tabs", "storage"],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+	"content_scripts": [{
+			"matches": [
+				"https://my.observepoint.com/simulation/form*",
+        "https://app.observepoint.com/*"
+			],
+			"js": [
+				"jquery-2.2.3.min.js",
+			 	"copy.js",
+			 	"paste.js"
+			]
+	}],
+
+  "browser_action": {
+  	"name": "OP Settings Conveyor",
+   	"default_icon": "icon.png",
+    "default_title": "OP Settings Conveyor"
+   },
+  "manifest_version": 2
+}
