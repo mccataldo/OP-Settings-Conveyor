@@ -1,3 +1,9 @@
+#Overview
+OP-Settings-Conveyor is a Google Chrome extension that provides copy/paste functionality to users or internal staff of ObservePoint who wish to migrate Web Journey settings off the ObservePoint legacy platform.
+
+##### Caution! This tool may contain bugs and could cause problems! 
+This tool also has not been approved for use by ObservePoint, Inc. 
+
 #Download & Install this Extension:
 1. Click the "Download Zip" button above on the right-hand side of this page. The zip will download to your local drive.
 2. Unzip the zip.
